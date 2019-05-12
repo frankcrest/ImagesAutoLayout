@@ -13,6 +13,10 @@
 		E95DDC9122889EA1001633E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95DDC9022889EA1001633E2 /* Assets.xcassets */; };
 		E95DDC9422889EA1001633E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95DDC9222889EA1001633E2 /* LaunchScreen.storyboard */; };
 		E95DDC9722889EA1001633E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDC9622889EA1001633E2 /* main.m */; };
+		E95DDCA222889FE2001633E2 /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = E95DDC9E22889FE2001633E2 /* Matthijs.png */; };
+		E95DDCA322889FE2001633E2 /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = E95DDC9F22889FE2001633E2 /* Brad Cox.png */; };
+		E95DDCA422889FE2001633E2 /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = E95DDCA022889FE2001633E2 /* Ray.png */; };
+		E95DDCA522889FE2001633E2 /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = E95DDCA122889FE2001633E2 /* Dennis Ritchie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E95DDC9322889EA1001633E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95DDC9522889EA1001633E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95DDC9622889EA1001633E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95DDC9E22889FE2001633E2 /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
+		E95DDC9F22889FE2001633E2 /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		E95DDCA022889FE2001633E2 /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
+		E95DDCA122889FE2001633E2 /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +71,24 @@
 				E95DDC8A22889EA0001633E2 /* ViewController.h */,
 				E95DDC8B22889EA0001633E2 /* ViewController.m */,
 				E95DDC8D22889EA0001633E2 /* Main.storyboard */,
+				E95DDC9D22889FE2001633E2 /* Images */,
 				E95DDC9022889EA1001633E2 /* Assets.xcassets */,
 				E95DDC9222889EA1001633E2 /* LaunchScreen.storyboard */,
 				E95DDC9522889EA1001633E2 /* Info.plist */,
 				E95DDC9622889EA1001633E2 /* main.m */,
 			);
 			path = ImageAuto;
+			sourceTree = "<group>";
+		};
+		E95DDC9D22889FE2001633E2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E95DDC9E22889FE2001633E2 /* Matthijs.png */,
+				E95DDC9F22889FE2001633E2 /* Brad Cox.png */,
+				E95DDCA022889FE2001633E2 /* Ray.png */,
+				E95DDCA122889FE2001633E2 /* Dennis Ritchie.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95DDCA522889FE2001633E2 /* Dennis Ritchie.png in Resources */,
+				E95DDCA422889FE2001633E2 /* Ray.png in Resources */,
 				E95DDC9422889EA1001633E2 /* LaunchScreen.storyboard in Resources */,
 				E95DDC9122889EA1001633E2 /* Assets.xcassets in Resources */,
 				E95DDC8F22889EA0001633E2 /* Main.storyboard in Resources */,
+				E95DDCA322889FE2001633E2 /* Brad Cox.png in Resources */,
+				E95DDCA222889FE2001633E2 /* Matthijs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
